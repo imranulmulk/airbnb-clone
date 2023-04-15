@@ -1,0 +1,49 @@
+.datePicker {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100%;
+  margin: 0 auto;
+  width: 558px; /* Need a specific value to work */
+  background-color: #fff;
+}
+
+.datePicker > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+
+.datePicker__details {
+  display: flex;
+  flex-direction: column;
+}
+.datePicker__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 18px;
+}
+.datePicker__details > input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+}
+
+.datePicker__searchButton {
+  text-transform: inherit !important;
+  background-color: #f45a60 !important;
+  color: #fff !important;
+  width: 100%;
+}
+
+.datePicker__searchButton:hover {
+  background-color: #fff !important;
+  color: #f45a60 !important;
+}
